@@ -1,0 +1,32 @@
+header {
+  background-color: #fff;
+  width: 100%;
+  padding: 0 80px;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul li {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+}
+
+header nav .listItems .item .navLink {
+  color: #ff4655;
+  
+}
+
+header nav .listItems .item .navLink:hover {
+  color: #ffffff;
+  background-color: #ff4655;
+  border-radius: 5px;
+}
