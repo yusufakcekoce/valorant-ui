@@ -9,3 +9,7 @@ export function getAgents() {
     "https://valorant-api.com/v1/agents?isPlayableCharacter=true"
   );
 }
+
+export function getWeapons() {
+  return axios.get("https://valorant-api.com/v1/weapons");
+}

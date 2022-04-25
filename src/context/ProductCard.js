@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/AgentStyle.css"
 
 function ProductCard({ img, name, category }) {
   return (
@@ -25,15 +26,3 @@ function ProductCard({ img, name, category }) {
 }
 
 export default ProductCard;
-
-// function ProductCard({img,name,category}) {
-//   return (
-//     <div className="product-container">
-//       <div className="product-img"><img src={img} alt="" /></div>
-//       <div className="product-name">{name}</div>
-//       <div className="product-category">{category}</div>
-//     </div>
-//   );
-// }
-
-// export default ProductCard;

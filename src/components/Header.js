@@ -25,6 +25,11 @@ const Header = () => {
               Maps
             </Link>
           </li>
+          <li className="item">
+            <Link to="/Weapons" className="navLink">
+              Weapons
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

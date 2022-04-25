@@ -24,7 +24,7 @@ function Maps() {
           <MapCard
             mapimg={item.splash}
             mapname={item.displayName}
-            mapcategory={item.uuid}
+            mapcategory={item.coordinates}
           />
         ))}
     </div>

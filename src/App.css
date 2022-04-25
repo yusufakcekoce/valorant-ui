@@ -5,7 +5,6 @@
 }
 
 body {
-  /* display: flex; */
   width: 100%;
   background-color: #ff4655;
   justify-content: center;
@@ -14,91 +13,3 @@ body {
 .App {
   text-align: center;
 }
-
-
-.products{
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  flex-basis: 300px;
-  flex-wrap: wrap;
-  margin: 40px;
-  padding: 20px;
-}
-
-.card-container {
-  width: 300px;
-  overflow: hidden;
-  box-shadow: 0px 0px 15px -5px;
-  transition: 0.3s;
-  animation: ease-in;
-  background-color: #fff;
-  border-radius: 10px;
-  margin-bottom: 2.2rem;
-}
-
-.card-container:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 15px 0px;
-}
-
-.image-container img{
-  overflow: hidden;
-  height: 200px;
-}
-
-.card-content {
-  margin: 1rem;
-  margin-top: 0.5rem;
-}
-
-h3,p {
-  margin: 0;
-  padding: 0;
-}
-
-.card-title {
-  margin-bottom: 0.5rem;
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-}
-
-.button .btn {
-  padding: 0.5rem;
-  background-color: #d1858c;
-  margin-bottom: 0.5rem;
-  border-radius: 3px;
-  border: 0px solid;
-  color: black;
-  cursor: pointer;
-}
-
-.button .btn:hover {
-  background-color: #ff4655;
-  color: #fff;
-}
-
-.button a {
-  text-decoration: none;
-  color: black;
-}
-
-.button a:hover {
-  color: white;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* @media (max-width:760px) {
-  .products {
-    flex-direction: column;
-  }
-} */
-
-/* @import "./styles/Weapons.css";
-@import "./styles/HeaderStyle.css"; */
