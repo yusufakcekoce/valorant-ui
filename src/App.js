@@ -6,6 +6,7 @@ import Maps from './components/Maps';
 import Home from './components/Home';
 import Agents from './components/Agents';
 import Weapons from './components/Weapons';
+import CardDetails from './context/AgentPages';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Route exact path='/' component={Home}/>
       <Route exact path='/maps' component={Maps}/>
       <Route exact path='/agents' component={Agents}/>
+      <Route exact path='/agents/:uuid' component={CardDetails}/>
       <Route exact path='/weapons' component={Weapons}/>
       <Redirect to="/"/>
       </Switch>
