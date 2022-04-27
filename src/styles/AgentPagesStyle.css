@@ -1,0 +1,67 @@
+.ap-container {
+  display: flex;
+  margin: 60px;
+  
+}
+
+.ap-left-bar {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ap-img {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.img1 {
+  z-index: 1;
+  position: absolute;
+  opacity: 50%;
+}
+
+.img2 {
+  z-index: 2;
+}
+
+.ap-details {
+  background-color:white;
+  height: 70px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ap-content {
+  display: flex;
+  margin-left: 50px;
+}
+
+.ap-content-box {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.skill-head {
+  font-weight: bold;
+}
+
+.ap-list {
+  text-align: left;
+}
+
+.ap-list li img {
+  background-color:#ff4655;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
