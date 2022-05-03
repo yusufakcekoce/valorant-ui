@@ -100,5 +100,3 @@ const CardDetails = () => {
 };
 
 export default CardDetails;
-
-// data.abilities[0].description

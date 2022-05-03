@@ -21,7 +21,8 @@ function Maps() {
     <div className="mapps">
       {maps &&
         maps.data.map((item) => (
-          <MapCard
+          <MapCard page="/maps/"
+            uuid={item.uuid}
             mapimg={item.splash}
             mapname={item.displayName}
             mapcategory={item.coordinates}
