@@ -1,6 +1,7 @@
 .ap-container {
   display: flex;
   margin: 60px;
+  flex-direction: row;
 }
 
 .ap-left-bar {
@@ -66,8 +67,16 @@
   border-radius: 30px;
 }
 
-@media (max-width: 760px) {
-  .ap-content {
+@media (max-width: 800px) {
+  .ap-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ap-content-box {
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
   }
 }

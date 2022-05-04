@@ -22,9 +22,12 @@ function Weapons() {
       {weapon &&
         weapon.data.map((item) => (
           <WeaponCard
-            wpimg={item.displayIcon}
+            wpimg={item?.skins[11]?.displayIcon}
             wpname={item.displayName}
-            wpcategory={item.category}
+            wpcategory={item?.shopData?.category}
+            wphs={item?.weaponStats?.damageRanges[0]?.headDamage}
+            wpbody={item?.weaponStats?.damageRanges[0]?.bodyDamage}
+            wpleg={item?.weaponStats?.damageRanges[0]?.legDamage}
           />
         ))}
     </div>

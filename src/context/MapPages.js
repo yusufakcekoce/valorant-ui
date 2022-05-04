@@ -17,10 +17,9 @@ const MapPages = () => {
     })();
   }, [api]);
   return (
-    // data && data.abilities[0].description
     <div className="mp-container">
-      <div className="img-container">
-        <img src={data?.splash} alt="" width="900px" />
+      <div className="mp-imgContainer">
+        <img src={data?.splash} alt="" width="900px"/>
       </div>
       <div className="mp-content">
         <div className="mp-leftBox">
