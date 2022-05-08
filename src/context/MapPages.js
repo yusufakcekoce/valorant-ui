@@ -5,8 +5,7 @@ import "../styles/MapPageStyle.css";
 const MapPages = () => {
   let { uuid } = useParams();
   let [fetchedData, updateFetchedData] = useState([]);
-  let { data, abilities, role, displayName, displayIcon, description } =
-    fetchedData;
+  let { data } = fetchedData;
   console.log(fetchedData);
 
   let api = `https://valorant-api.com/v1/maps/${uuid}`;
@@ -19,7 +18,7 @@ const MapPages = () => {
   return (
     <div className="mp-container">
       <div className="mp-imgContainer">
-        <img src={data?.splash} alt="" width="900px"/>
+        <img src={data?.splash} alt="" width="900px" />
       </div>
       <div className="mp-content">
         <div className="mp-leftBox">

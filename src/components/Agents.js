@@ -21,7 +21,8 @@ function Agents() {
     <div className="products">
       {agents &&
         agents.data.map((item) => (
-          <ProductCard page="/agents/"
+          <ProductCard
+            page="/agents/"
             uuid={item.uuid}
             img={item.displayIcon}
             name={item.displayName}

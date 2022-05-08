@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 
 function MapCard({ mapimg, mapname, mapcategory, page, uuid }) {
   return (
-    <Link 
-    to={`${page}${uuid}`} 
-    key={uuid}>
+    <Link to={`${page}${uuid}`} key={uuid}>
       <div className="map-container">
         <div className="map-image-container">
           <img src={mapimg} alt="" />

@@ -4,10 +4,7 @@ import "../styles/AgentStyle.css";
 
 function ProductCard({ img, name, category, page, uuid }) {
   return (
-    <Link
-      to={`${page}${uuid}`}
-      key={uuid}
-    >
+    <Link to={`${page}${uuid}`} key={uuid}>
       <div className="card-container">
         <div className="image-container">
           <img src={img} alt="" />

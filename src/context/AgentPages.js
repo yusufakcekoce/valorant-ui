@@ -5,8 +5,7 @@ import "../styles/AgentPagesStyle.css";
 const CardDetails = () => {
   let { uuid } = useParams();
   let [fetchedData, updateFetchedData] = useState([]);
-  let { data, abilities, role, displayName, displayIcon, description } =
-    fetchedData;
+  let { data } = fetchedData;
   console.log(fetchedData);
 
   let api = `https://valorant-api.com/v1/agents/${uuid}`;
