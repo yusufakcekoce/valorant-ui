@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
-/* components */
+
+/* components start */
 import Header from "./components/Header";
 import Maps from "./components/Maps";
 import Home from "./components/Home";
@@ -15,6 +16,7 @@ import Agents from "./components/Agents";
 import Weapons from "./components/Weapons";
 import CardDetails from "./context/AgentPages";
 import MapDetails from "./context/MapPages";
+/* components end */
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -22,7 +24,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4000);
+    }, 2000);
   }, []);
   return (
     <div className="App">
@@ -30,8 +32,8 @@ function App() {
         <ReactLoading
           type={"spin"}
           color={"#FFFF"}
-          height={"20%"}
-          width={"20%"}
+          height={"100px"}
+          width={"100px"}
         />
       ) : (
         <Router>

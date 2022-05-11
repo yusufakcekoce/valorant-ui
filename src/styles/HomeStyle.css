@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=PT+Sans&family=Saira+Condensed:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 300px;
+}
+
+.homeContent {
+  margin-left: 50px;
+}
+
+.homeContent h1 {
+  font-size: 60px;
+  color: white;
+  text-align: left;
+  letter-spacing: 25px;
+}
+
+.homeContent p {
+  color: white;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.accounts {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
